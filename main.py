@@ -1,11 +1,13 @@
 import pandas as pd
 
 def calculate(data):
-    print(pd.DataFrame(data).info())
-    print(pd.DataFrame(data).describe(  ))
+    if len(data) < 9:
+        raise ValueError("List must contain nine numbers.")
+    # print(pd.DataFrame(data).info())
+    # print(pd.DataFrame(data).describe(  ))
 
 
-calculate([0,1,2,3,4,5,6,7,8])
+# calculate([0,1,2,3,4,5,6,7,8])
 
 # {
 #   'mean': [axis1, axis2, flattened],
