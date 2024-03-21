@@ -7,7 +7,8 @@ def calculate(data):
     # print(pd.DataFrame(data).describe(  ))
 
 
-# calculate([0,1,2,3,4,5,6,7,8])
+calculate([0,1,2,3,4,5,6,7,8])
+
 
 # {
 #   'mean': [axis1, axis2, flattened],
